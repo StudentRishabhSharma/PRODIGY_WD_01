@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: hsl(216, 20%, 95%);
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 80%;
+    height: auto;
+    padding: 2rem;
+    display: flex;
+}
+.left, .right{
+    height: 100vh;
+}
+.left{
+    margin-top: 9.5rem;
+    white-space: nowrap;
+    align-items: flex-end;
+}
+.left img{
+    max-width: 60%;
+    height: auto;
+}
+.left p{
+    margin-left: 2rem;
+    font-size: 1.8rem;
+    margin-top: -.5rem;
+    font-weight: 450;
+    line-height: 2rem;
+    word-spacing: 2px;
+}
+.right{
+    margin-top: 7.6rem;
+}
+.right-in{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    padding: .5rem;
+    width: 25rem;
+    margin-left: 5vw;
+}
+input{
+    border: 1px solid #dddfe2;
+    padding: .8rem;
+    border-radius: 6px;
+    width: 95%;
+    margin: 5px;
+    font-size: 17px;
+}
+.line{
+    height: 1px;
+    width: 21rem;
+    background-color: #dddfe2;
+}
+button{
+    color: white;
+    background-color: #1877f2;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+    width: 95%;
+    margin: 1rem;
+    padding: .2rem;
+    font-weight: 700;
+}
+.right-in a{
+    color: #18a4f7;
+    text-decoration: none;
+    margin-bottom: 1.8rem;
+}
+.right-in a:hover{
+    text-decoration: underline;
+}
+#button2{
+    background-color: #42b72a;
+    width: 12.2rem;
+    font-size: 1.1rem;
+}
+.create-p{
+    padding: 1.5rem;
+    font-size: .9rem;
+    margin-left: 6vw;
+}
+.create-p a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
